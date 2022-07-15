@@ -5,8 +5,8 @@ from django.conf import settings
 # from django.core.cache import cache
 
 HEADER = {'typ': 'JWP', 'alg': 'default'}
-KEY = settings.SECRETS['signing']['key']
-SALT = settings.SECRETS['signing']['salt']
+KEY = 'SUPER_BUAA_2021'
+SALT = 'test.zewan.cc'
 
 
 def encrypt(obj):
